@@ -52,7 +52,7 @@ var randomizeColor = function() {
 };
 
 // this is how we chunk up inputText and display it one character at a time
-// we don't (can't!) use a for loop, because JavaScript is dumb.  I meant asynchronous.
+// we don't (can't!) use a for loop with setTimeout, because JavaScript.
 var i = 0;
 var printerFunction = function() {
     if (i < inputText.length) {
